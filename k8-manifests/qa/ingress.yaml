@@ -8,7 +8,7 @@ metadata:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/load-balancer-name: projectops-qa-alb
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80},{"HTTPS":443}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:145678292045:certificate/160b3a48-391c-4549-a384-ff298ca0dece
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-southeast-1:803874682810:certificate/9a918089-b4a5-4130-83ca-fef99f4a17bd
     alb.ingress.kubernetes.io/ssl-redirect: "443"
     alb.ingress.kubernetes.io/healthcheck-protocol: HTTP
     alb.ingress.kubernetes.io/healthcheck-port: traffic-port
@@ -17,7 +17,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: qa-bat.online
+    - host: qa-bat.site
       http:
         paths:
           - path: /
