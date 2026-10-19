@@ -39,7 +39,7 @@ spec:
         - name: backend
           # GitHub Actions replaces this with the exact private ECR image.
           # image: 145678292045.dkr.ecr.ap-south-1.amazonaws.com/projectops-backend:qa-12-1-a33ede1
-          image: 803874682810.dkr.ecr.ap-southeast-1.amazonaws.com/projectops-backend:qa-4-1-785036a
+          image: 803874682810.dkr.ecr.ap-southeast-1.amazonaws.com/projectops-backend:qa-5-1-99988be
           imagePullPolicy: IfNotPresent
 
           ports:
